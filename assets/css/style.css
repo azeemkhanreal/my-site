@@ -151,6 +151,7 @@ header > .social-links ul li a ion-icon {
     flex-direction: column-reverse;
   }
   .profile-image {
+    margin:20px;
   }
   .profile-content:nth-child(1) {
     padding-top: 20px;
@@ -175,14 +176,23 @@ header > .social-links ul li a ion-icon {
   .contact > .social-links ul > li {
     margin: 6px !important;
   }
+    .title h2{
+    padding:10px
+}
 }
 @media screen and (max-width: 500px) {
   .title h1 {
     padding: initial;
     font-size: 25px;
   }
+  .title h2{
+    padding:10px
+}
   .container {
     padding: 18px;
+  }
+    .profile-image {
+    margin:20px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -200,6 +210,9 @@ header > .social-links ul li a ion-icon {
   .profile-image .profile-outer {
     width: 280px;
     height: 290px;
+  }
+    .profile-image {
+    margin:20px;
   }
 }
 
